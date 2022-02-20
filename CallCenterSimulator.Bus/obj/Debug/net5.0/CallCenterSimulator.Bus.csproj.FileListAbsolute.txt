@@ -1,0 +1,15 @@
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\obj\Debug\net5.0\CallCenterSimulator.Bus.csproj.AssemblyReference.cache
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\obj\Debug\net5.0\CallCenterSimulator.Bus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\obj\Debug\net5.0\CallCenterSimulator.Bus.AssemblyInfoInputs.cache
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\obj\Debug\net5.0\CallCenterSimulator.Bus.AssemblyInfo.cs
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\obj\Debug\net5.0\CallCenterSimulator.Bus.csproj.CoreCompileInputs.cache
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\bin\Debug\net5.0\CallCenterSimulator.Bus.deps.json
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\bin\Debug\net5.0\CallCenterSimulator.Bus.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\bin\Debug\net5.0\ref\CallCenterSimulator.Bus.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\bin\Debug\net5.0\CallCenterSimulator.Bus.pdb
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\bin\Debug\net5.0\CallCenterSimulator.Domain.Core.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\bin\Debug\net5.0\CallCenterSimulator.Domain.Core.pdb
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\obj\Debug\net5.0\CallCenterSimulator.Bus.csproj.CopyComplete
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\obj\Debug\net5.0\CallCenterSimulator.Bus.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\obj\Debug\net5.0\ref\CallCenterSimulator.Bus.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Bus\obj\Debug\net5.0\CallCenterSimulator.Bus.pdb

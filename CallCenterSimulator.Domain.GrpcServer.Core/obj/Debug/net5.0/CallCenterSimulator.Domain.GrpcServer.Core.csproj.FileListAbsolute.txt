@@ -1,0 +1,17 @@
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcServer.Core.csproj.AssemblyReference.cache
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcServer.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcServer.Core.AssemblyInfoInputs.cache
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcServer.Core.AssemblyInfo.cs
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcServer.Core.csproj.CoreCompileInputs.cache
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\bin\Debug\net5.0\CallCenterSimulator.Domain.GrpcServer.Core.deps.json
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\bin\Debug\net5.0\CallCenterSimulator.Domain.GrpcServer.Core.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\bin\Debug\net5.0\ref\CallCenterSimulator.Domain.GrpcServer.Core.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\bin\Debug\net5.0\CallCenterSimulator.Domain.GrpcServer.Core.pdb
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcServer.Core.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\obj\Debug\net5.0\ref\CallCenterSimulator.Domain.GrpcServer.Core.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcServer.Core.pdb
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\bin\Debug\net5.0\CallCenterSimulator.Client.Domain.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\bin\Debug\net5.0\CallCenterSimulator.Domain.Core.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\bin\Debug\net5.0\CallCenterSimulator.Client.Domain.pdb
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\bin\Debug\net5.0\CallCenterSimulator.Domain.Core.pdb
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcServer.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcServer.Core.csproj.CopyComplete

@@ -1,0 +1,15 @@
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\bin\Debug\net5.0\CallCenterSimulator.Client.Domain.deps.json
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\bin\Debug\net5.0\CallCenterSimulator.Client.Domain.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\bin\Debug\net5.0\ref\CallCenterSimulator.Client.Domain.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\bin\Debug\net5.0\CallCenterSimulator.Client.Domain.pdb
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\bin\Debug\net5.0\CallCenterSimulator.Domain.Core.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\bin\Debug\net5.0\CallCenterSimulator.Domain.Core.pdb
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\obj\Debug\net5.0\CallCenterSimulator.Client.Domain.csproj.AssemblyReference.cache
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\obj\Debug\net5.0\CallCenterSimulator.Client.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\obj\Debug\net5.0\CallCenterSimulator.Client.Domain.AssemblyInfoInputs.cache
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\obj\Debug\net5.0\CallCenterSimulator.Client.Domain.AssemblyInfo.cs
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\obj\Debug\net5.0\CallCenterSimulator.Client.Domain.csproj.CoreCompileInputs.cache
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\obj\Debug\net5.0\CallCenterSimulator.Client.Domain.csproj.CopyComplete
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\obj\Debug\net5.0\CallCenterSimulator.Client.Domain.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\obj\Debug\net5.0\ref\CallCenterSimulator.Client.Domain.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Client.Domain\obj\Debug\net5.0\CallCenterSimulator.Client.Domain.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QVb7gwlUHMIcyNuT+Cap7PnAJO9dr0NsqaMWHv9R8b6RpODLdDt06fX6BXyP50uDWmol5veFGT7FH1700FZ8Rw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deniz.tolan\\RiderProjects\\CallCenterSimulator\\CallCenterSimulator.Domain.Core\\CallCenterSimulator.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

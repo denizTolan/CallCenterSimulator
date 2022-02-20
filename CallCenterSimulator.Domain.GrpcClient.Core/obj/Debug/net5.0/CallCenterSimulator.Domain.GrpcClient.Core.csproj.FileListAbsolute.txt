@@ -1,0 +1,12 @@
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcClient.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcClient.Core.csproj.AssemblyReference.cache
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcClient.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcClient.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcClient.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcClient.Core.AssemblyInfoInputs.cache
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcClient.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcClient.Core.AssemblyInfo.cs
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcClient.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcClient.Core.csproj.CoreCompileInputs.cache
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcClient.Core\bin\Debug\net5.0\CallCenterSimulator.Domain.GrpcClient.Core.deps.json
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcClient.Core\bin\Debug\net5.0\CallCenterSimulator.Domain.GrpcClient.Core.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcClient.Core\bin\Debug\net5.0\ref\CallCenterSimulator.Domain.GrpcClient.Core.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcClient.Core\bin\Debug\net5.0\CallCenterSimulator.Domain.GrpcClient.Core.pdb
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcClient.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcClient.Core.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcClient.Core\obj\Debug\net5.0\ref\CallCenterSimulator.Domain.GrpcClient.Core.dll
+C:\Users\deniz.tolan\RiderProjects\CallCenterSimulator\CallCenterSimulator.Domain.GrpcClient.Core\obj\Debug\net5.0\CallCenterSimulator.Domain.GrpcClient.Core.pdb

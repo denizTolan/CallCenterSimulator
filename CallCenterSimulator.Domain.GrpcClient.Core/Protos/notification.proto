@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+option csharp_namespace = "NotificationGrpcService";
+
+package notification;
+
+// The greeting service definition.
+service Notification {
+  // Sends a greeting
+  rpc Register (stream RegisterRequest) returns (stream RegisterResponse);
+}
+
+// The request message containing the user's name.
+message RegisterRequest {
+  string clientId = 1;
+  string messageId = 2;
+  MessageType type = 3;
+  int64 time = 4;
+  ResponseType response = 5;
+  string payload = 6;
+}
+
+// The response message containing the greetings.
+message RegisterResponse {
+  string clientId = 1;
+  string messageId = 2;
+  MessageType type = 3;
+  int64 time = 4;
+  MessageStatus status = 5;
+  string payload = 6;
+}
+
+enum MessageType
+{
+  MESSAGETYPE_UNDEFINED = 0;
+  MESSAGETYPE_ORDINARY = 1;
+  MESSAGETYPE_IMPORTANT = 2;
+}
+
+enum MessageStatus
+{
+  MESSAGESTATUS_UNDEFINED = 0;
+  MESSAGESTATUS_CREATED = 1;
+  MESSAGESTATUS_PROCESSED = 2;
+  MESSAGESTATUS_ERROR = 3;
+}
+
+enum ResponseType
+{
+  RESPONSETYPE_UNDEFINED = 0;
+  RESPONSETYPE_REQUIRED = 1;
+  RESPONSETYPE_NOT_REQUIRED = 2;
+}

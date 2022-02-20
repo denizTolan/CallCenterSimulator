@@ -1,0 +1,220 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CallCenterSimulator.Domain.GrpcServer.Core/1.0.0": {
+        "dependencies": {
+          "CallCenterSimulator.Client.Domain": "1.0.0",
+          "Google.Protobuf": "3.19.4",
+          "Grpc.AspNetCore.Server": "2.43.0-pre1",
+          "Grpc.Core": "2.44.0",
+          "Grpc.Tools": "2.44.0"
+        },
+        "runtime": {
+          "CallCenterSimulator.Domain.GrpcServer.Core.dll": {}
+        }
+      },
+      "Google.Protobuf/3.19.4": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.19.4.0",
+            "fileVersion": "3.19.4.0"
+          }
+        }
+      },
+      "Grpc.AspNetCore.Server/2.43.0-pre1": {
+        "dependencies": {
+          "Grpc.Net.Common": "2.43.0-pre1"
+        },
+        "runtime": {
+          "lib/net5.0/Grpc.AspNetCore.Server.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.43.0.0"
+          }
+        }
+      },
+      "Grpc.Core/2.44.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.44.0",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.44.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libgrpc_csharp_ext.arm64.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/grpc_csharp_ext.x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/grpc_csharp_ext.x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.44.0": {
+        "dependencies": {
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.Api.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.44.0.0"
+          }
+        }
+      },
+      "Grpc.Net.Common/2.43.0-pre1": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.44.0"
+        },
+        "runtime": {
+          "lib/net5.0/Grpc.Net.Common.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.43.0.0"
+          }
+        }
+      },
+      "Grpc.Tools/2.44.0": {},
+      "MediatR/10.0.1": {
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1.0"
+          }
+        }
+      },
+      "MediatR.Contracts/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {},
+      "CallCenterSimulator.Client.Domain/1.0.0": {
+        "dependencies": {
+          "CallCenterSimulator.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "CallCenterSimulator.Client.Domain.dll": {}
+        }
+      },
+      "CallCenterSimulator.Domain.Core/1.0.0": {
+        "dependencies": {
+          "MediatR": "10.0.1"
+        },
+        "runtime": {
+          "CallCenterSimulator.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CallCenterSimulator.Domain.GrpcServer.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.19.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fd07/ykL4O4FhqrZIELm5lmiyOHfdPg9+o+hWr6tcfRdS7tHXnImg/2wtogLzlW2eEmr0J7j6ZrZvaWOLiJbxQ==",
+      "path": "google.protobuf/3.19.4",
+      "hashPath": "google.protobuf.3.19.4.nupkg.sha512"
+    },
+    "Grpc.AspNetCore.Server/2.43.0-pre1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G75juJQCZ8PqO8K6EYFD9HB0hv8/fLPZetZneGl2f+sPNcnYYdWrDpkuCooXoyvY6yrf1yphtzmlciyEXLacfw==",
+      "path": "grpc.aspnetcore.server/2.43.0-pre1",
+      "hashPath": "grpc.aspnetcore.server.2.43.0-pre1.nupkg.sha512"
+    },
+    "Grpc.Core/2.44.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H2rTNePSYeEqUgBBqiE5KZ/yOX7jEtETjWjv4gGtnYxrlpZ79VAHe+4KtZAnt2KJMiGvqTm7eo1SPk+QpiPfaw==",
+      "path": "grpc.core/2.44.0",
+      "hashPath": "grpc.core.2.44.0.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.44.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FBfPMvKwT8q98T8lWa5z6nBMLdH/Mmo5g4yyYYMvbXLWDzo4beqa7CUU5QH3PKvo2X6/b+UAZ2IymXlrYG3IXg==",
+      "path": "grpc.core.api/2.44.0",
+      "hashPath": "grpc.core.api.2.44.0.nupkg.sha512"
+    },
+    "Grpc.Net.Common/2.43.0-pre1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JbXfrzsicuOGrYYw5ctRsoYkTLGvdEHhnP55guwVYWjFuFnE+qBCmDgNYo3eBACExdtW5VfV7GVGVAWjNooM+g==",
+      "path": "grpc.net.common/2.43.0-pre1",
+      "hashPath": "grpc.net.common.2.43.0-pre1.nupkg.sha512"
+    },
+    "Grpc.Tools/2.44.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HEqnCJqHcpr1rgrfluvPAsaR4Y1qSFicg8Z24u6kmw0EIk9RnRszz2OVjAkyvqcGU18fWAtsmk8NApfzbVHucw==",
+      "path": "grpc.tools/2.44.0",
+      "hashPath": "grpc.tools.2.44.0.nupkg.sha512"
+    },
+    "MediatR/10.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vnjbk4giDJzJelh34Ygt0eorApCKrRFB7j0pauFPY1oxfO3cEZ7FugBrIOjCM76SDGTOmPFfbfmVnz1t3iFrGA==",
+      "path": "mediatr/10.0.1",
+      "hashPath": "mediatr.10.0.1.nupkg.sha512"
+    },
+    "MediatR.Contracts/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "path": "mediatr.contracts/1.0.1",
+      "hashPath": "mediatr.contracts.1.0.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "CallCenterSimulator.Client.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CallCenterSimulator.Domain.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

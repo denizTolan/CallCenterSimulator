@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Grpc.Core.Api" Version="2.44.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CallCenterSimulator.Domain.GrpcClient.Core\CallCenterSimulator.Domain.GrpcClient.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="certificate.crt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

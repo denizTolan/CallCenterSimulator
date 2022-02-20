@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "A31qWKDHgnifKVTIeLk3cPdDFC0Io1hl2hs3e/EGggjj/dJB4/798qvBLoXUAKH7idSsCyCbjcOu4r3GbLz/Vw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deniz.tolan\\RiderProjects\\CallCenterSimulator\\CallCenterSimulator.Client\\CallCenterSimulator.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.core\\2.44.0\\grpc.core.2.44.0.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.core.api\\2.44.0\\grpc.core.api.2.44.0.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.net.client\\2.43.0-pre1\\grpc.net.client.2.43.0-pre1.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\grpc.net.common\\2.43.0-pre1\\grpc.net.common.2.43.0-pre1.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\deniz.tolan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
