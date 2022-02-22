@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using CallCenterSimulator.Agent.Domain.Events;
 
 namespace CallCenterSimulator.Agent.Domain.Interface
@@ -7,5 +8,7 @@ namespace CallCenterSimulator.Agent.Domain.Interface
         void AddUserQueue(TransferCreatedEvent transferCreatedEvent);
 
         TransferCreatedEvent PopUserData();
+
+        IEnumerable<TransferCreatedEvent> PopUserDataList();
     }
 }

@@ -25,11 +25,6 @@ namespace CallCenterSimulator.Client.Api.Services
         public override async Task Register(IAsyncStreamReader<RegisterRequest> requestStream, 
             IServerStreamWriter<RegisterResponse> responseStream, ServerCallContext context)
         {  
-            var subscriber = new SubscribersModel<RegisterResponse>
-            {
-                Subscriber = responseStream
-            };
-            
             var createTransferCommand = new CreateTransferCommand(
                 Guid.NewGuid(), 
                 "test",

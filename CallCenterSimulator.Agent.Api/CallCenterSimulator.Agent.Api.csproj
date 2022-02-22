@@ -13,10 +13,15 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\CallCenterSimulator.Agent.Application\CallCenterSimulator.Agent.Application.csproj" />
       <ProjectReference Include="..\CallCenterSimulator.Agent.Data\CallCenterSimulator.Agent.Data.csproj" />
       <ProjectReference Include="..\CallCenterSimulator.Agent.Domain\CallCenterSimulator.Agent.Domain.csproj" />
       <ProjectReference Include="..\CallCenterSimulator.Bus\CallCenterSimulator.Bus.csproj" />
       <ProjectReference Include="..\CallCenterSimulator.Domain.Core\CallCenterSimulator.Domain.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controllers" />
     </ItemGroup>
 
 </Project>

@@ -1,3 +1,6 @@
+using CallCenterSimulator.Agent.Api.Service.HostedServices;
+using CallCenterSimulator.Agent.Application.Service;
+using CallCenterSimulator.Agent.Application.Service.Interface;
 using CallCenterSimulator.Agent.Data.Context;
 using CallCenterSimulator.Agent.Data.Repository;
 using CallCenterSimulator.Agent.Domain.Data;
@@ -36,7 +39,7 @@ namespace CallCenterSimulator.Agent.Api
             services.AddDbContext<CallCenterSimulatorDbContext>(options =>
                 {
                     options.UseSqlServer(Configuration.GetConnectionString("CallCenterSimulatorDbConnection"));
-                }
+                },ServiceLifetime.Singleton
             );
             
             services.AddSingleton<IEventBus, RabbitMQBus>(sp =>
@@ -45,22 +48,31 @@ namespace CallCenterSimulator.Agent.Api
                 return new RabbitMQBus(sp.GetService<IMediator>(), scopeFactory);
             });
 
+            services.AddMemoryCache();
+
             services.AddTransient<IAgentRepository, AgentRepository>();
             services.AddTransient<ITeamRepository, TeamRepository>();
+            services.AddSingleton<IAgentService, AgentService>();
+            services.AddSingleton<CachedAgentService>();
                 
             //Subscriptions
             services.AddTransient<TransferEventHandler>();
-
+            services.AddTransient<AgentEventHandler>();
+            
             services.AddSingleton<IUserData,UserData>();
 
             //Domain Events
             services.AddTransient<IEventHandler<TransferCreatedEvent>, TransferEventHandler>();
-            
+            services.AddTransient<IEventHandler<AgentCreatedEvent>, AgentEventHandler>();
+
+            services.AddHostedService<CallbackAgentService>();
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "CallCenterSimulator.Agent.Api", Version = "v1"});
             });
+            
             
             services.AddMediatR(typeof(Startup));
         }
@@ -82,7 +94,10 @@ namespace CallCenterSimulator.Agent.Api
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
             
             ConfigureEventBus(app);
         }

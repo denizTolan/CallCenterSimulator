@@ -7,4 +7,9 @@ namespace CallCenterSimulator.Agent.Domain.Common
         Senior,
         TeamLead
     }
+
+    public enum CacheKey
+    {
+        Agent,
+    }
 }

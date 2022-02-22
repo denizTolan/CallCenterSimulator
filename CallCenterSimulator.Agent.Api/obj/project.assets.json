@@ -1528,6 +1528,20 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "CallCenterSimulator.Agent.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CallCenterSimulator.Agent.Data": "1.0.0",
+          "CallCenterSimulator.Agent.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CallCenterSimulator.Agent.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CallCenterSimulator.Agent.Application.dll": {}
+        }
+      },
       "CallCenterSimulator.Agent.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5760,6 +5774,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "CallCenterSimulator.Agent.Application/1.0.0": {
+      "type": "project",
+      "path": "../CallCenterSimulator.Agent.Application/CallCenterSimulator.Agent.Application.csproj",
+      "msbuildProject": "../CallCenterSimulator.Agent.Application/CallCenterSimulator.Agent.Application.csproj"
+    },
     "CallCenterSimulator.Agent.Data/1.0.0": {
       "type": "project",
       "path": "../CallCenterSimulator.Agent.Data/CallCenterSimulator.Agent.Data.csproj",
@@ -5783,6 +5802,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CallCenterSimulator.Agent.Application >= 1.0.0",
       "CallCenterSimulator.Agent.Data >= 1.0.0",
       "CallCenterSimulator.Agent.Domain >= 1.0.0",
       "CallCenterSimulator.Bus >= 1.0.0",
@@ -5826,6 +5846,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\deniz.tolan\\RiderProjects\\CallCenterSimulator\\CallCenterSimulator.Agent.Application\\CallCenterSimulator.Agent.Application.csproj": {
+              "projectPath": "C:\\Users\\deniz.tolan\\RiderProjects\\CallCenterSimulator\\CallCenterSimulator.Agent.Application\\CallCenterSimulator.Agent.Application.csproj"
+            },
             "C:\\Users\\deniz.tolan\\RiderProjects\\CallCenterSimulator\\CallCenterSimulator.Agent.Data\\CallCenterSimulator.Agent.Data.csproj": {
               "projectPath": "C:\\Users\\deniz.tolan\\RiderProjects\\CallCenterSimulator\\CallCenterSimulator.Agent.Data\\CallCenterSimulator.Agent.Data.csproj"
             },

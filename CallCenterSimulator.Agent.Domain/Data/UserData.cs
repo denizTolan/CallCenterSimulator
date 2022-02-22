@@ -1,5 +1,7 @@
 using System;
+using System.Collections;
 using System.Collections.Concurrent;
+using System.Collections.Generic;
 using CallCenterSimulator.Agent.Domain.Events;
 using CallCenterSimulator.Agent.Domain.Interface;
 
@@ -26,6 +28,14 @@ namespace CallCenterSimulator.Agent.Domain.Data
                 throw new Exception("Queue dont have an any data.");
             
             return firstData;
+        }
+        
+        public IEnumerable<TransferCreatedEvent> PopUserDataList()
+        {
+            while (this._concurrentQueue.Count > 0)
+            {
+                yield return this.PopUserData();
+            }
         }
     }
 }

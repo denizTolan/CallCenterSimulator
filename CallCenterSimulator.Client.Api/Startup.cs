@@ -3,6 +3,7 @@ using CallCenterSimulator.Client.Api.Services;
 using CallCenterSimulator.Client.Domain.CommandHandlers;
 using CallCenterSimulator.Client.Domain.Commands;
 using CallCenterSimulator.Client.Domain.EventHandlers;
+using CallCenterSimulator.Client.Domain.Events;
 using CallCenterSimulator.Domain.Core;
 using CallCenterSimulator.Domain.GrpcServer.Core;
 using MediatR;
@@ -79,6 +80,14 @@ namespace CallCenterSimulator.Client.Api
                 endpoints.MapControllers();
                 endpoints.MapGrpcService<NotificationService>();
             });
+
+            ConfigureEventBus(app);
+        }
+        
+        private void ConfigureEventBus(IApplicationBuilder app)
+        {
+            var eventBus = app.ApplicationServices.GetRequiredService<IEventBus>();
+            eventBus.Subscribe<AgentCreatedEvent, AgentEventHandler>();
         }
     }
 }

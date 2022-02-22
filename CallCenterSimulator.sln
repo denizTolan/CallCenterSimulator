@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallCenterSimulator.Agent.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallCenterSimulator.Agent.Data", "CallCenterSimulator.Agent.Data\CallCenterSimulator.Agent.Data.csproj", "{A2B68547-2901-48F1-B4EA-57CB4A33F5C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallCenterSimulator.Agent.Application", "CallCenterSimulator.Agent.Application\CallCenterSimulator.Agent.Application.csproj", "{1AD47601-5E2C-44A4-92C1-0531EA5084F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,7 @@ Global
 		{BC1717F7-2C0A-4E90-9A79-95DD0FF2FCFC} = {4602C52D-CC02-47ED-BD08-C9046EAB94C3}
 		{FFCB128C-F6E3-4EF8-8C6D-590BF6F553A4} = {4602C52D-CC02-47ED-BD08-C9046EAB94C3}
 		{A2B68547-2901-48F1-B4EA-57CB4A33F5C9} = {4602C52D-CC02-47ED-BD08-C9046EAB94C3}
+		{1AD47601-5E2C-44A4-92C1-0531EA5084F6} = {4602C52D-CC02-47ED-BD08-C9046EAB94C3}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DBC32230-63AD-4E29-BBF2-E01E52E70887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -92,5 +95,9 @@ Global
 		{A2B68547-2901-48F1-B4EA-57CB4A33F5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2B68547-2901-48F1-B4EA-57CB4A33F5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2B68547-2901-48F1-B4EA-57CB4A33F5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD47601-5E2C-44A4-92C1-0531EA5084F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD47601-5E2C-44A4-92C1-0531EA5084F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD47601-5E2C-44A4-92C1-0531EA5084F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD47601-5E2C-44A4-92C1-0531EA5084F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
