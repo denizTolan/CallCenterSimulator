@@ -34,6 +34,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallCenterSimulator.Agent.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallCenterSimulator.Agent.Application", "CallCenterSimulator.Agent.Application\CallCenterSimulator.Agent.Application.csproj", "{1AD47601-5E2C-44A4-92C1-0531EA5084F6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{EEDAA203-D886-492E-A7AA-60D2B5BFAE22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
