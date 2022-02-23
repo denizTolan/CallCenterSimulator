@@ -10,9 +10,19 @@
 
 The project consists of 3 layers.
 
-- Domain Layer
-- Client Layer
 - Agent Layer
+  - CallCenterSimulator.Agent.Api
+  - CallCenterSimulator.Agent.Application
+  - CallCenterSimulator.Agent.Data
+  - CallCenterSimulator.Agent.Domain
+- Client Layer
+  - CallCenterSimulator.Client
+  - CallCenterSimulator.Client.Api
+  - CallCenterSimulator.Client.Domain
+- Domain Layer
+  - CallCenterSimulator.Domain.GrpcClient.Core
+  - CallCenterSimulator.Domain.GrpcServer.Core
+  - CallCenterSimulator.Domain.Core
 
 Each layer have own business login and library.
   
